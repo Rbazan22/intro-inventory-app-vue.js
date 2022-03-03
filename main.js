@@ -32,7 +32,7 @@ const app = {
         this.products.push({
           id: new Date().toISOString,
           name: this.newProduct,
-          qty = 0,
+          qty: 0,
         });
         this.newProduct = "";
       }
